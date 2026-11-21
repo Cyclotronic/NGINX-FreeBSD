@@ -1,0 +1,3 @@
+# The selected zip module links libiconv even with the separate ICONV module
+# option disabled. Declare the actual runtime dependency explicitly.
+LIB_DEPENDS+= libiconv.so:converters/libiconv

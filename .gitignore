@@ -1,0 +1,24 @@
+# Public files are allowlisted; inventories, lab access tools and logs stay local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/NOTICE.md
+!/PUBLISHING.md
+!/scripts/
+/scripts/*
+!/scripts/collect-nginx-build-info.sh
+!/scripts/build-nginx.sh
+!/scripts/render-guide.py
+!/build/
+/build/*
+!/build/target-options.make.conf
+!/build/nginx-Makefile.local
+!/docs/
+/docs/*
+!/docs/UPGRADE-GUIDE.md
+!/docs/NGINX-Upgrade-and-Recovery.pdf
+!/docs/VALIDATION-REPORT.md
+!/docs/BUILD-MANIFEST.json
+!/docs/SOURCES.md

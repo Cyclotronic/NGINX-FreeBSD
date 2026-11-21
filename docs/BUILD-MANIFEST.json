@@ -1,0 +1,82 @@
+{
+  "name": "nginx",
+  "version": "1.30.7_1,3",
+  "abi": "FreeBSD:14:amd64",
+  "arch": "freebsd:14:x86:64",
+  "sha256": "ab6b80c0aa20156a88ee28c097af06a212bc754ea5ff871d5b156e7464887469",
+  "dependencies": {
+    "libiconv": {
+      "origin": "converters/libiconv",
+      "version": "1.17_1"
+    },
+    "libmaxminddb": {
+      "origin": "net/libmaxminddb",
+      "version": "1.12.2"
+    },
+    "pcre2": {
+      "origin": "devel/pcre2",
+      "version": "10.45"
+    }
+  },
+  "annotations": {
+    "FreeBSD_version": "1402000",
+    "cpe": "cpe:2.3:a:f5:nginx_open_source:1.30.7:::::freebsd14:x64:1"
+  },
+  "target_enabled_count": 36,
+  "candidate_enabled_count": 36,
+  "lost_enabled_options": [],
+  "new_enabled_options": [],
+  "dynamic_modules": [
+    "/usr/local/libexec/nginx/ngx_http_fancyindex_module.so",
+    "/usr/local/libexec/nginx/ngx_http_footer_filter_module.so",
+    "/usr/local/libexec/nginx/ngx_http_geoip2_module.so",
+    "/usr/local/libexec/nginx/ngx_http_push_stream_module.so",
+    "/usr/local/libexec/nginx/ngx_http_sticky_module.so",
+    "/usr/local/libexec/nginx/ngx_http_upstream_fair_module.so",
+    "/usr/local/libexec/nginx/ngx_http_zip_module.so",
+    "/usr/local/libexec/nginx/ngx_nchan_module.so",
+    "/usr/local/libexec/nginx/ngx_stream_geoip2_module.so",
+    "/usr/local/libexec/nginx/ngx_stream_module.so"
+  ],
+  "built_on": "FreeBSD 14.2-RELEASE amd64, portable x86-64-v2-AES guest CPU; no native tuning",
+  "date_utc": "2026-11-21",
+  "ports_commit": "9063bb5640e746b6ad815f6ec8f5959cf7a7c1bd",
+  "ports_archive_sha256": "f9ce3265b9c2a7454230c431ed97d43b17f1e9dc8b3c8375fe09595c9dad396a",
+  "historical_overlay": "2025Q2: converters/libiconv, devel/pcre2, net/libmaxminddb, devel/pkgconf",
+  "historical_archive_sha256": "07780eb520da88b25a8b1b5b7f154735f868731da26ffb8b86c866f19412d63e",
+  "package_writer": "pkg 2.9.3",
+  "validated_installer": "pkg 2.4.2, matching supplied target inventory",
+  "tls": "FreeBSD base OpenSSL 3.0.15; ssl=base",
+  "packaging_adjustment": "Makefile.local adds LIB_DEPENDS for libiconv, required by bundled mod_zip",
+  "module_source_ports": {
+    "fancyindex": "0.6.0",
+    "footer": "0.1.1",
+    "geoip2": "3.4.2,1",
+    "push-stream": "0.6.2",
+    "upstream-check": "0.5.1"
+  },
+  "direct_module_sources": {
+    "nchan": "v1.3.6",
+    "upstream-fair": "10ecdcf",
+    "sticky": "2753211",
+    "mod_zip": "a9f9afa"
+  },
+  "files": {
+    "dependencies/libiconv-1.17_1.pkg": {
+      "sha256": "eee231740c8226d49b923ae71ee87ad3c304239365ad3697e7234faecc875c0e",
+      "bytes": 755824
+    },
+    "dependencies/libmaxminddb-1.12.2.pkg": {
+      "sha256": "771bd16e81300532df62786f052f18a66764114ebc6431b63d6d5dc182fc908e",
+      "bytes": 40503
+    },
+    "dependencies/pcre2-10.45.pkg": {
+      "sha256": "d38eda9bbba0fe947436dc28b49905f7ad721fc022fe92b4447e280652dc5ce8",
+      "bytes": 1171183
+    },
+    "packages/nginx-1.30.7_1,3.pkg": {
+      "sha256": "ab6b80c0aa20156a88ee28c097af06a212bc754ea5ff871d5b156e7464887469",
+      "bytes": 908872
+    }
+  }
+}
