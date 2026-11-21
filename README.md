@@ -58,3 +58,8 @@ require downloads. Builds are not claimed bit-for-bit reproducible.
 
 Original code and documentation: MIT, copyright Cyclotron.
 Packaged software retains its own licenses; see [NOTICE](NOTICE.md).
+
+The module set includes GPLv3+ push-stream. The [license audit](docs/LICENSE-AUDIT.md)
+records exact-source checks and an unresolved license-grant question for
+the pinned upstream-fair fork. The package core license label is not a
+license for all bundled components.

@@ -1,3 +1,8 @@
+Scope: this MIT license applies only to original project scripts and
+documentation. It does not license or claim ownership of NGINX, modules,
+dependencies, upstream source files or their notices. Those retain their
+authors' licenses; see NOTICE.md and THIRD-PARTY-NOTICES.txt.
+
 MIT License
 
 Copyright (c) 2026 Cyclotron
