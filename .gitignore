@@ -9,6 +9,7 @@
 !/scripts/
 /scripts/*
 !/scripts/collect-nginx-build-info.sh
+!/scripts/collect-nginx-config.sh
 !/scripts/build-nginx.sh
 !/scripts/render-guide.py
 !/build/
@@ -22,6 +23,7 @@
 !/docs/VALIDATION-REPORT.md
 !/docs/BUILD-MANIFEST.json
 !/docs/SOURCES.md
+!/docs/CONFIG-COLLECTOR.md
 
 !/THIRD-PARTY-NOTICES.txt
 !/docs/LICENSE-AUDIT.md

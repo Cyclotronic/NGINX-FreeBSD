@@ -43,6 +43,9 @@ The output contains machine details; keep it private.
 
 ## Build and audit
 
+For service/configuration analysis, use the separate
+[configuration collector](docs/CONFIG-COLLECTOR.md). Send its output privately.
+
 - [Exact manifest](docs/BUILD-MANIFEST.json)
 - [Source pins, licenses and rebuilding](docs/SOURCES.md)
 - [Target options](build/target-options.make.conf)
